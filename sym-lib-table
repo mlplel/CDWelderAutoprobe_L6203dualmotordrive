@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name l6203dualmotordrive-rescue)(type Legacy)(uri ${KIPRJMOD}/l6203dualmotordrive-rescue.lib)(options "")(descr ""))
+)

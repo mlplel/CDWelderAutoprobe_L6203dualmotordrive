@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L6203
+D DMOS full bridge driver
+K l6203 
+$ENDCMP
+#
+#End Doc Library

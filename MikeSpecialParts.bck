@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP K5019
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP PIC24FJ64GA702
+F file:///home/mjacobs/Documents/Semiconductors/Microchip/PIC24FJ256GA705.pdf
+$ENDCMP
+#
+#End Doc Library

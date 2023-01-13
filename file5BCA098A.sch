@@ -1,0 +1,290 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L l6203dualmotordrive-rescue:ATA6561-MikeSpecialParts U8
+U 1 1 5BCA0F10
+P 4900 3500
+F 0 "U8" H 5150 3950 50  0000 C CNN
+F 1 "ATA6561" H 5250 4100 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5BCA1064
+P 7300 3500
+F 0 "J4" H 7273 3380 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 7273 3471 50  0000 R CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_4pol" H 7300 3500 50  0001 C CNN
+F 3 "~" H 7300 3500 50  0001 C CNN
+	1    7300 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 5BCA10FD
+P 5800 3800
+F 0 "R36" H 6050 3750 50  0000 R CNN
+F 1 "61.9" H 6050 3850 50  0000 R CNN
+F 2 "Resistors_SMD:R_1206" V 5730 3800 50  0001 C CNN
+F 3 "~" H 5800 3800 50  0001 C CNN
+	1    5800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5BCA116D
+P 6050 3800
+F 0 "R37" H 5950 3750 50  0000 R CNN
+F 1 "61.9" H 5950 3850 50  0000 R CNN
+F 2 "Resistors_SMD:R_1206" V 5980 3800 50  0001 C CNN
+F 3 "~" H 6050 3800 50  0001 C CNN
+	1    6050 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5BCA11C8
+P 5950 4200
+F 0 "C21" H 6065 4246 50  0000 L CNN
+F 1 "4.7n" H 6065 4155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5988 4050 50  0001 C CNN
+F 3 "~" H 5950 4200 50  0001 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5BCA128E
+P 5350 4650
+F 0 "#PWR0124" H 5350 4400 50  0001 C CNN
+F 1 "GND" H 5355 4477 50  0000 C CNN
+F 2 "" H 5350 4650 50  0001 C CNN
+F 3 "" H 5350 4650 50  0001 C CNN
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4050 5000 4500
+Wire Wire Line
+	5000 4500 5350 4500
+Wire Wire Line
+	5950 4500 5950 4350
+Wire Wire Line
+	5350 4650 5350 4500
+Connection ~ 5350 4500
+Wire Wire Line
+	5350 4500 5950 4500
+Wire Wire Line
+	5800 3950 5800 4050
+Wire Wire Line
+	5800 4050 5950 4050
+Wire Wire Line
+	5950 4050 6050 4050
+Wire Wire Line
+	6050 4050 6050 3950
+Connection ~ 5950 4050
+Wire Wire Line
+	5800 3600 5800 3650
+Wire Wire Line
+	6050 3650 6050 3400
+Wire Wire Line
+	6050 3400 5400 3400
+Wire Wire Line
+	6050 3400 6400 3400
+Wire Wire Line
+	6400 3400 6400 3300
+Wire Wire Line
+	6400 3300 7100 3300
+Connection ~ 6050 3400
+Wire Wire Line
+	5800 3600 7100 3600
+Connection ~ 5800 3600
+Wire Wire Line
+	7100 3400 6850 3400
+Wire Wire Line
+	6850 3400 6850 3450
+Wire Wire Line
+	6850 3500 7100 3500
+Wire Wire Line
+	5950 4500 6750 4500
+Wire Wire Line
+	6750 4500 6750 3450
+Wire Wire Line
+	6750 3450 6850 3450
+Connection ~ 5950 4500
+Connection ~ 6850 3450
+Wire Wire Line
+	6850 3450 6850 3500
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 5BCA19EF
+P 4750 2400
+F 0 "#PWR0125" H 4750 2250 50  0001 C CNN
+F 1 "+3.3V" H 4765 2573 50  0000 C CNN
+F 2 "" H 4750 2400 50  0001 C CNN
+F 3 "" H 4750 2400 50  0001 C CNN
+	1    4750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 5BCA1A3C
+P 5000 2400
+F 0 "#PWR0126" H 5000 2250 50  0001 C CNN
+F 1 "+5V" H 5015 2573 50  0000 C CNN
+F 2 "" H 5000 2400 50  0001 C CNN
+F 3 "" H 5000 2400 50  0001 C CNN
+	1    5000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2950 5000 2400
+Wire Wire Line
+	4800 2950 4800 2600
+Wire Wire Line
+	4800 2600 4750 2600
+Wire Wire Line
+	4750 2600 4750 2500
+Text HLabel 3750 3400 0    50   Input ~ 0
+CANTX
+Text HLabel 3750 3550 0    50   Input ~ 0
+CANRX
+Text HLabel 3750 3700 0    50   Input ~ 0
+CANSTBY
+Wire Wire Line
+	3750 3700 4200 3700
+Wire Wire Line
+	3750 3400 4450 3400
+Text Notes 3900 3550 0    50   ~ 0
+ACTION
+Text Notes 7350 3650 0    50   ~ 0
+ACTION
+Text Notes 3900 3700 0    50   ~ 0
+TRIG
+Text Notes 7350 3300 0    50   ~ 0
+TRIG
+$Comp
+L Device:R R?
+U 1 1 5FC7522A
+P 4650 4150
+F 0 "R?" V 4443 4150 50  0000 C CNN
+F 1 "200 " V 4534 4150 50  0000 C CNN
+F 2 "" V 4580 4150 50  0001 C CNN
+F 3 "~" H 4650 4150 50  0001 C CNN
+	1    4650 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 4150 4200 4150
+Wire Wire Line
+	4200 4150 4200 3700
+Connection ~ 4200 3700
+Wire Wire Line
+	4200 3700 4450 3700
+Wire Wire Line
+	4800 4150 5400 4150
+Wire Notes Line
+	4400 4000 4850 4000
+Wire Notes Line
+	4850 4000 4850 4300
+Wire Notes Line
+	4850 4300 4400 4300
+Wire Notes Line
+	4400 4300 4400 4000
+Text Notes 4200 4500 0    50   ~ 0
+Mod for trigger out\nopen drain driver
+$Comp
+L Device:R R?
+U 1 1 5FC79219
+P 6050 2900
+F 0 "R?" H 6120 2946 50  0000 L CNN
+F 1 "20k" H 6120 2855 50  0000 L CNN
+F 2 "" V 5980 2900 50  0001 C CNN
+F 3 "~" H 6050 2900 50  0001 C CNN
+	1    6050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FC79A1B
+P 5800 2900
+F 0 "D?" V 5754 2980 50  0000 L CNN
+F 1 "D" V 5845 2980 50  0000 L CNN
+F 2 "" H 5800 2900 50  0001 C CNN
+F 3 "~" H 5800 2900 50  0001 C CNN
+	1    5800 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3050 5800 3200
+Wire Wire Line
+	5800 3200 6050 3200
+Wire Wire Line
+	6050 3200 6050 3050
+Wire Wire Line
+	6050 3200 6050 3400
+Connection ~ 6050 3200
+Wire Wire Line
+	4750 2500 5800 2500
+Wire Wire Line
+	6050 2500 6050 2750
+Connection ~ 4750 2500
+Wire Wire Line
+	4750 2500 4750 2400
+Wire Wire Line
+	5800 2750 5800 2500
+Connection ~ 5800 2500
+Wire Wire Line
+	5800 2500 6050 2500
+Wire Notes Line
+	5650 2650 6250 2650
+Wire Notes Line
+	6250 2650 6250 3300
+Wire Notes Line
+	6250 3300 5650 3300
+Wire Notes Line
+	5650 3300 5650 2650
+Text Notes 6300 2750 0    50   ~ 0
+Mod for trigger out\nopen drain driver
+Wire Wire Line
+	5350 3600 5800 3600
+Connection ~ 5400 3400
+Wire Wire Line
+	5400 3400 5350 3400
+Wire Wire Line
+	5400 3400 5400 4150
+Wire Wire Line
+	4500 3550 4500 3450
+Wire Wire Line
+	4500 3450 5350 3450
+Wire Wire Line
+	5350 3450 5350 3600
+Wire Wire Line
+	3750 3550 4450 3550
+Connection ~ 4450 3550
+Wire Wire Line
+	4450 3550 4500 3550
+Connection ~ 5350 3600
+Wire Notes Line
+	4500 3450 4500 2900
+Wire Notes Line
+	4500 2900 4250 2900
+Text Notes 3400 3000 0    50   ~ 0
+Mod for peddle switch input
+$EndSCHEMATC

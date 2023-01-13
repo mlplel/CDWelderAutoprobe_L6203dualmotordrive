@@ -1,0 +1,533 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C5
+U 1 1 5BC60EE0
+P 6250 1650
+F 0 "C5" V 5998 1650 50  0000 C CNN
+F 1 "15n" V 6089 1650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 6288 1500 50  0001 C CNN
+F 3 "~" H 6250 1650 50  0001 C CNN
+	1    6250 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5BC60EE7
+P 6250 2500
+F 0 "C6" V 5998 2500 50  0000 C CNN
+F 1 "15n" V 6089 2500 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 6288 2350 50  0001 C CNN
+F 3 "~" H 6250 2500 50  0001 C CNN
+	1    6250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5BC60EEE
+P 6250 4200
+F 0 "C7" V 5998 4200 50  0000 C CNN
+F 1 "15n" V 6089 4200 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 6288 4050 50  0001 C CNN
+F 3 "~" H 6250 4200 50  0001 C CNN
+	1    6250 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5BC60EF5
+P 6250 5050
+F 0 "C8" V 5998 5050 50  0000 C CNN
+F 1 "15n" V 6089 5050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 6288 4900 50  0001 C CNN
+F 3 "~" H 6250 5050 50  0001 C CNN
+	1    6250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5BC60EFC
+P 6650 1650
+F 0 "D1" H 6650 1866 50  0000 C CNN
+F 1 "D" H 6650 1775 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-15_P12.70mm_Horizontal" H 6650 1650 50  0001 C CNN
+F 3 "~" H 6650 1650 50  0001 C CNN
+	1    6650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5BC60F03
+P 6650 2500
+F 0 "D2" H 6650 2716 50  0000 C CNN
+F 1 "D" H 6650 2625 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-15_P12.70mm_Horizontal" H 6650 2500 50  0001 C CNN
+F 3 "~" H 6650 2500 50  0001 C CNN
+	1    6650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5BC60F0A
+P 6650 4200
+F 0 "D3" H 6650 4416 50  0000 C CNN
+F 1 "D" H 6650 4325 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-15_P12.70mm_Horizontal" H 6650 4200 50  0001 C CNN
+F 3 "~" H 6650 4200 50  0001 C CNN
+	1    6650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5BC60F11
+P 6650 5050
+F 0 "D4" H 6650 5266 50  0000 C CNN
+F 1 "D" H 6650 5175 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-15_P12.70mm_Horizontal" H 6650 5050 50  0001 C CNN
+F 3 "~" H 6650 5050 50  0001 C CNN
+	1    6650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5BC60F18
+P 6150 2050
+F 0 "C3" H 6350 2000 50  0000 R CNN
+F 1 "22n" H 6350 2100 50  0000 R CNN
+F 2 "Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 6188 1900 50  0001 C CNN
+F 3 "~" H 6150 2050 50  0001 C CNN
+	1    6150 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BC60F1F
+P 6400 2050
+F 0 "R6" H 6470 2096 50  0000 L CNN
+F 1 "10" H 6470 2005 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512" V 6330 2050 50  0001 C CNN
+F 3 "~" H 6400 2050 50  0001 C CNN
+	1    6400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2200 6300 2200
+Wire Wire Line
+	6300 2200 6300 1900
+Wire Wire Line
+	6300 1900 6400 1900
+Wire Wire Line
+	5950 2300 6400 2300
+Wire Wire Line
+	6400 2300 6400 2250
+Wire Wire Line
+	6400 2500 6400 2300
+Connection ~ 6400 2300
+Wire Wire Line
+	6100 2500 5950 2500
+Wire Wire Line
+	5950 1850 6150 1850
+Wire Wire Line
+	6150 1850 6150 1900
+Wire Wire Line
+	5950 1650 6100 1650
+Wire Wire Line
+	6150 1850 6400 1850
+Wire Wire Line
+	6400 1850 6400 1650
+Connection ~ 6150 1850
+Wire Wire Line
+	6400 1650 6500 1650
+Connection ~ 6400 1650
+Wire Wire Line
+	6400 2500 6500 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	5950 4200 6100 4200
+Wire Wire Line
+	6400 4200 6450 4200
+Wire Wire Line
+	5950 5050 6100 5050
+$Comp
+L Device:C C4
+U 1 1 5BC60F3B
+P 6150 4600
+F 0 "C4" H 6350 4550 50  0000 R CNN
+F 1 "22n" H 6350 4650 50  0000 R CNN
+F 2 "Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 6188 4450 50  0001 C CNN
+F 3 "~" H 6150 4600 50  0001 C CNN
+	1    6150 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BC60F42
+P 6350 4600
+F 0 "R5" H 6420 4646 50  0000 L CNN
+F 1 "10" H 6420 4555 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512" V 6280 4600 50  0001 C CNN
+F 3 "~" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4750 6250 4450
+Wire Wire Line
+	6250 4450 6350 4450
+Wire Wire Line
+	6150 4750 6250 4750
+Wire Wire Line
+	5950 4850 6350 4850
+Wire Wire Line
+	6350 4850 6350 4750
+Wire Wire Line
+	5950 4400 6150 4400
+Wire Wire Line
+	6150 4400 6150 4450
+Wire Wire Line
+	6150 4400 6450 4400
+Wire Wire Line
+	6450 4400 6450 4200
+Connection ~ 6150 4400
+Connection ~ 6450 4200
+Wire Wire Line
+	6450 4200 6500 4200
+Wire Wire Line
+	6450 5050 6450 4850
+Wire Wire Line
+	6450 4850 6350 4850
+Wire Wire Line
+	6450 5050 6500 5050
+Connection ~ 6350 4850
+Wire Wire Line
+	6450 5050 6400 5050
+Connection ~ 6450 5050
+$Comp
+L power:GND #PWR0101
+U 1 1 5BC60F5B
+P 4900 3250
+F 0 "#PWR0101" H 4900 3000 50  0001 C CNN
+F 1 "GND" H 4905 3077 50  0000 C CNN
+F 2 "" H 4900 3250 50  0001 C CNN
+F 3 "" H 4900 3250 50  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5BC60F61
+P 4900 5850
+F 0 "#PWR0102" H 4900 5600 50  0001 C CNN
+F 1 "GND" H 4905 5677 50  0000 C CNN
+F 2 "" H 4900 5850 50  0001 C CNN
+F 3 "" H 4900 5850 50  0001 C CNN
+	1    4900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BC60F67
+P 5350 5600
+F 0 "R2" H 5420 5646 50  0000 L CNN
+F 1 "R" H 5420 5555 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512" V 5280 5600 50  0001 C CNN
+F 3 "~" H 5350 5600 50  0001 C CNN
+	1    5350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BC60F6E
+P 5600 5600
+F 0 "R4" H 5670 5646 50  0000 L CNN
+F 1 "R" H 5670 5555 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512" V 5530 5600 50  0001 C CNN
+F 3 "~" H 5600 5600 50  0001 C CNN
+	1    5600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BC60F75
+P 5350 3050
+F 0 "R1" H 5420 3096 50  0000 L CNN
+F 1 "R" H 5420 3005 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512" V 5280 3050 50  0001 C CNN
+F 3 "~" H 5350 3050 50  0001 C CNN
+	1    5350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BC60F7C
+P 5600 3050
+F 0 "R3" H 5670 3096 50  0000 L CNN
+F 1 "R" H 5670 3005 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512" V 5530 3050 50  0001 C CNN
+F 3 "~" H 5600 3050 50  0001 C CNN
+	1    5600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2900 5350 2900
+Wire Wire Line
+	5350 2800 5350 2900
+Connection ~ 5350 2900
+Wire Wire Line
+	5600 3200 5600 3250
+Wire Wire Line
+	5600 3250 5350 3250
+Wire Wire Line
+	5350 3200 5350 3250
+Connection ~ 5350 3250
+Wire Wire Line
+	5350 3250 4900 3250
+Wire Wire Line
+	4900 2800 4900 3150
+Connection ~ 4900 3250
+Wire Wire Line
+	5600 5450 5350 5450
+Wire Wire Line
+	5350 5450 5350 5400
+Connection ~ 5350 5450
+Wire Wire Line
+	5600 5750 5350 5750
+Wire Wire Line
+	5350 5750 4900 5750
+Connection ~ 5350 5750
+Wire Wire Line
+	4900 5350 4900 5650
+Connection ~ 4900 5750
+Wire Wire Line
+	4900 5750 4900 5850
+Wire Wire Line
+	5600 5750 6800 5750
+Wire Wire Line
+	6800 5750 6800 5050
+Connection ~ 5600 5750
+Wire Wire Line
+	6800 5050 6800 4200
+Connection ~ 6800 5050
+Wire Wire Line
+	5600 3250 6800 3250
+Wire Wire Line
+	6800 3250 6800 2500
+Connection ~ 5600 3250
+Wire Wire Line
+	6800 2500 6800 1650
+Connection ~ 6800 2500
+$Comp
+L l6203dualmotordrive-rescue:L6203-ST-L6203 U2
+U 1 1 5BC60FA0
+P 5150 2050
+F 0 "U2" H 4700 2700 50  0000 C CNN
+F 1 "L6203" H 5150 2050 50  0000 C CNN
+F 2 "MikeFootprintLibrary:Multiwatt11" H 5150 2050 50  0001 C CNN
+F 3 "" H 5150 2050 50  0001 C CNN
+	1    5150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5BC60FAE
+P 4100 2550
+F 0 "C1" H 4215 2596 50  0000 L CNN
+F 1 "220n" H 4215 2505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4138 2400 50  0001 C CNN
+F 3 "~" H 4100 2550 50  0001 C CNN
+	1    4100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5BC60FB5
+P 4100 5050
+F 0 "C2" H 4215 5096 50  0000 L CNN
+F 1 "220n" H 4215 5005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4138 4900 50  0001 C CNN
+F 3 "~" H 4100 5050 50  0001 C CNN
+	1    4100 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 3150
+Wire Wire Line
+	4900 3150 4900 3250
+Connection ~ 4900 5650
+Wire Wire Line
+	4900 5650 4900 5750
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5BC6397B
+P 8050 3450
+F 0 "J1" H 8130 3442 50  0000 L CNN
+F 1 "Conn_01x04" H 8130 3351 50  0000 L CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol" H 8050 3450 50  0001 C CNN
+F 3 "~" H 8050 3450 50  0001 C CNN
+	1    8050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3350 7500 3350
+Wire Wire Line
+	7500 3350 7500 1850
+Wire Wire Line
+	7500 1850 6400 1850
+Connection ~ 6400 1850
+Wire Wire Line
+	7850 3450 7150 3450
+Wire Wire Line
+	7150 3450 7150 2250
+Wire Wire Line
+	7150 2250 6400 2250
+Connection ~ 6400 2250
+Wire Wire Line
+	6400 2250 6400 2200
+Wire Wire Line
+	7850 3550 7150 3550
+Wire Wire Line
+	7150 3550 7150 4400
+Wire Wire Line
+	7150 4400 6450 4400
+Connection ~ 6450 4400
+Wire Wire Line
+	7850 3650 7500 3650
+Wire Wire Line
+	7500 4850 6450 4850
+Wire Wire Line
+	7500 3650 7500 4850
+Connection ~ 6450 4850
+Wire Bus Line
+	1800 1400 3000 1400
+Text HLabel 1800 1400 0    50   Input ~ 0
+MC[1..8]
+Entry Wire Line
+	3000 1850 3100 1950
+Wire Wire Line
+	3100 1950 4350 1950
+Text Label 3300 1950 0    50   ~ 0
+MC1
+Entry Wire Line
+	3000 2000 3100 2100
+Wire Wire Line
+	3100 2100 4350 2100
+Text Label 3300 2100 0    50   ~ 0
+MC2
+Entry Wire Line
+	3000 1700 3100 1800
+Wire Wire Line
+	3100 1800 4350 1800
+Text Label 3300 1800 0    50   ~ 0
+MC6
+Entry Wire Line
+	3000 4250 3100 4350
+Wire Wire Line
+	3100 4350 4350 4350
+Text Label 3300 4350 0    50   ~ 0
+MC5
+Entry Wire Line
+	3000 4400 3100 4500
+Entry Wire Line
+	3000 4550 3100 4650
+Wire Wire Line
+	4350 4500 3100 4500
+Wire Wire Line
+	3100 4650 4350 4650
+Text Label 3300 4500 0    50   ~ 0
+MC3
+Text Label 3300 4650 0    50   ~ 0
+MC4
+Entry Wire Line
+	3000 5200 3100 5300
+Entry Wire Line
+	3000 2800 3100 2900
+$Comp
+L l6203dualmotordrive-rescue:L6203-ST-L6203 U3
+U 1 1 5BC60FA7
+P 5150 4600
+F 0 "U3" H 4700 5250 50  0000 C CNN
+F 1 "L6203" H 5150 4600 50  0000 C CNN
+F 2 "MikeFootprintLibrary:Multiwatt11" H 5150 4600 50  0001 C CNN
+F 3 "" H 5150 4600 50  0001 C CNN
+	1    5150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2300 4100 2300
+Wire Wire Line
+	4100 2300 4100 2400
+Wire Wire Line
+	4100 3150 4100 2700
+Wire Wire Line
+	4100 3150 4900 3150
+Wire Wire Line
+	4350 4850 4100 4850
+Wire Wire Line
+	4100 4850 4100 4900
+Wire Wire Line
+	4100 5650 4100 5200
+Wire Wire Line
+	4100 5650 4900 5650
+Wire Wire Line
+	3100 2900 5200 2900
+Wire Wire Line
+	5200 2900 5200 2800
+Wire Wire Line
+	5200 2800 5350 2800
+Connection ~ 5350 2800
+Wire Wire Line
+	5350 5400 5050 5400
+Wire Wire Line
+	5050 5400 5050 5450
+Wire Wire Line
+	5050 5450 3100 5450
+Wire Wire Line
+	3100 5450 3100 5300
+Connection ~ 5350 5400
+Wire Wire Line
+	5350 5400 5350 5350
+Text Label 3300 2900 0    50   ~ 0
+MC7
+Text Label 3300 5450 0    50   ~ 0
+MC8
+$Comp
+L power:VCC #PWR0109
+U 1 1 5BDBEF4D
+P 5200 850
+F 0 "#PWR0109" H 5200 700 50  0001 C CNN
+F 1 "VCC" H 5217 1023 50  0000 C CNN
+F 2 "" H 5200 850 50  0001 C CNN
+F 3 "" H 5200 850 50  0001 C CNN
+	1    5200 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0127
+U 1 1 5BDBEF9E
+P 5200 3600
+F 0 "#PWR0127" H 5200 3450 50  0001 C CNN
+F 1 "VCC" H 5217 3773 50  0000 C CNN
+F 2 "" H 5200 3600 50  0001 C CNN
+F 3 "" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 850  5200 1350
+Wire Wire Line
+	5200 3600 5200 3900
+Wire Bus Line
+	3000 1400 3000 5200
+$EndSCHEMATC
